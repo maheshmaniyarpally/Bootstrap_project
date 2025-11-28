@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>BOOTSTRAP</title>
+     <link rel="icon"
+          href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKbVAEp7jgKYb3VsuNOEdTk-dPNJFe9vFk_81VAD1tRm0Y2Hf9krbXbBvJAloUI-ZnC8g&usqp=CAU">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+</head>
+
+<body>
+     <nav class="navbar navbar-expand-lg bg-body-tertiary bg-dark">
+          <div class="container-fluid">
+               <a class="navbar-brand text-light" href="#">PAWAN KALYAN</a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                         <li class="nav-item">
+                              <a class="nav-link active text-light" aria-current="page" href="#">Home</a>
+                         </li>
+                         <li class="nav-item">
+                              <a class="nav-link text-light" href="#table1">Movies</a>
+                         </li>
+                         <li class="nav-item dropdown">
+                              <a class="nav-link dropdown-toggle text-light" href="#" role="button"
+                                   data-bs-toggle="dropdown" aria-expanded="false">
+                                   Dropdown
+                              </a>
+                              <ul class="dropdown-menu">
+                                   <li><a class="dropdown-item " href="#actor">ACTOR</a></li>
+                                   <li><a class="dropdown-item" href="#poli">POLITICIAN</a></li>
+                                   <li>
+                                        <hr class="dropdown-divider">
+                                   </li>
+                                   <li><a class="dropdown-item" href="#">Something else here</a></li>
+                              </ul>
+                         </li>
+                         <li class="nav-item "><a class="nav-link text-light " aria-disabled="true">Disabled</a></li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+                         <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+               </div>
+          </div>
+     </nav>
+     <!-- <br>.................................................................................................... -->
+     <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+               <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+               <div class="carousel-item active">
+                    <img src="https://w0.peakpx.com/wallpaper/899/783/HD-wallpaper-pawankalyan-actor-pavan-pavan-kalyan-pavankalyan-pawan-pawan-kalyan-telugu-vakeelsaab.jpg"
+                         class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                         <h5>ACTOR</h5>
+                         <p class="text-light fs-5"><b>Pawan Kalyan built a unique identity in Telugu cinema with his
+                                   natural acting, style, and strong connection with youth.</b></p>
+                    </div>
+               </div>
+               <div class="carousel-item">
+                    <img src="https://wallpapers.com/images/hd/janasena-party-pawan-kalyan-greyscale-l3g7yf3pgcohj3u6.jpg"
+                         class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                         <h5>POLITICIAN</h5>
+                         <p class="text-dark fs-6"><b>Pawan Kalyan entered politics by founding the Jana Sena Party in
+                                   2014, aiming to fight for people's rights and clean governance.
+                                   In 2024, he achieved major success by winning as MLA from Pithapuram and becoming the
+                                   Deputy Chief Minister of Andhra Pradesh</b></p>
+                    </div>
+               </div>
+               <div class="carousel-item">
+                    <img src="https://i.pinimg.com/736x/f6/35/61/f635619f34db62b9b5c002a870c40489.jpg"
+                         class="d-block w-100" alt="...">
+                    <div class="carousel-caption d-none d-md-block">
+                         <h5>Motivator</h5>
+                         <p><b>Pawan Kalyan inspired youth with his fearless speeches, honesty, and commitment to social
+                                   justice.
+                                   He motivated people to believe in change, stand against corruption, and actively
+                                   participate in society and politics.</b></p>
+                    </div>
+               </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+               data-bs-slide="prev">
+               <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+               data-bs-slide="next">
+               <span class="carousel-control-next-icon" aria-hidden="true"></span>
+               <span class="visually-hidden">Next</span>
+          </button>
+     </div>
+     <br><br>
+     <!-- ............................................CARDS............................................................................. -->
+     <div class="container my-5">
+          <div class="row">
+               <!-- CARD 1 -->
+               <center>
+                    <h1 id="actor"><b> 😎 ACTOR </b></h1>
+               </center>
+               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4 ">
+                    <div class="card border-dark border-5 "
+                         style="background: linear-gradient(rgb(219, 175, 86),rgb(238, 240, 150));">
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQI1GAv0hazDBHCIHMuCHpNH5Sv17XExRSPHA&s"
+                              class="card-img-top" alt="..." style="height: 300px; width: 100%; object-fit: cover;">
+                         <div class="card-body">
+                              <h5 class="card-title">Fearless Spirit of Badri</h5>
+                              <p class="card-text">Pawan Kalyan’s energetic charm in Badri, where his bold attitude and
+                                   emotional intensity defined a new age of youthful Telugu cinema.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                    </div>
+               </div>
+               <!-- CARD 2 -->
+               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card border-dark border-5 "
+                         style="background: linear-gradient(rgb(219, 175, 86),rgb(238, 240, 150));">
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTebdUdSvO7HkwyzyBk7tJZ0KEXBPjcDm4WIA&s"
+                              class="card-img-top" alt="..." style="height: 300px; width: 100%; object-fit: cover;">
+                         <div class="card-body">
+                              <h5 class="card-title">A Classic Star Expression</h5>
+                              <p class="card-text">This thoughtful expression highlights Pawan Kalyan’s calm personality
+                                   and the depth he brings to every moment.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                    </div>
+               </div>
+
+               <!-- CARD 3 -->
+               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card border-dark border-5 "
+                         style="background: linear-gradient(rgb(219, 175, 86),rgb(238, 240, 150));">
+                         <img src="https://i.pinimg.com/736x/f0/a1/78/f0a1783a004ab78e76bf845a856c9b76.jpg"
+                              class="card-img-top" alt="..." style="height: 300px; width: 100%; object-fit: cover;">
+                         <div class="card-body">
+                              <h5 class="card-title">Stylish Icon His Moment</h5>
+                              <p class="card-text">In this frame, Pawan Kalyan’s distinctive style and charisma shine
+                                   through — reminding fans why he remains a much-loved icon.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                    </div>
+               </div>
+               <!-- 4 -->
+               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card border-dark border-5 "
+                         style="background: linear-gradient(rgb(219, 175, 86),rgb(238, 240, 150));">
+                         <img src="https://hamaraphotos.com/albums300_2012/wpw-20111009/hpse_fullsize_0_2083381874_Pawan%20Kalyan%20in%20Panjaa%20Movie%20Stills%20%284%29.jpg"
+                              class="card-img-top" alt="..." style="height: 300px; width: 100%; object-fit: cover;">
+                         <div class="card-body">
+                              <h5 class="card-title">Loyalty Turned Turmoil – Panjaa</h5>
+                              <p class="card-text">From the film Panjaa, this fierce still reflects Pawan Kalyan’s raw
+                                   intensity and unmatched action presence</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                    </div>
+               </div>
+               <center>
+                    <h1 id="poli">POLITICIAN</h1>
+               </center>
+               <!-- 5 -->
+               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card border-dark border-5 "
+                         style="background: linear-gradient(rgb(219, 175, 86),rgb(238, 240, 150));">
+                         <img src="data:image/jpeg;base64,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"
+                              class="card-img-top" alt="..." style="height: 300px; width: 100%; object-fit: cover;">
+                         <div class="card-body">
+                              <h5 class="card-title">A Graceful Candid Moment</h5>
+                              <p class="card-text">This warm candid image shows Pawan Kalyan’s natural charm, capturing
+                                   the simplicity fans deeply admire.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                    </div>
+               </div>
+               <!-- 6 -->
+               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card border-dark border-5 "
+                         style="background: linear-gradient(rgb(219, 175, 86),rgb(238, 240, 150));">
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzaBg2orWSCwNLQa3VVJonjWdxUxfwLJjhdg&s"
+                              class="card-img-top" alt="..." style="height: 300px; width: 100%; object-fit: cover;">
+                         <div class="card-body">
+                              <h5 class="card-title">A Gentle and Joyful Smile</h5>
+                              <p class="card-text">Here, Pawan Kalyan’s bright smile captures his friendly nature and
+                                   the positivity he brings to every the moment.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                    </div>
+               </div>
+               <!-- 7 -->
+               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card border-dark border-5 "
+                         style="background: linear-gradient(rgb(219, 175, 86),rgb(238, 240, 150));">
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQzo4B6Mz8fZ3esSPcRN49P03cfuPURJw0xPqmLVJK-6SXRgbITpO9XsrPDfHx3ncy5wQ&usqp=CAU"
+                              class="card-img-top" alt="..." style="height: 300px; width: 100%; object-fit: cover;">
+                         <div class="card-body">
+                              <h5 class="card-title">Timeless Regal Look</h5>
+                              <p class="card-text">This elegant still presents Pawan Kalyan in a classic pose,
+                                   highlighting his royal aura and composed demeanor.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                    </div>
+               </div>
+               <!-- 8 -->
+               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card border-dark border-5 "
+                         style="background: linear-gradient(rgb(219, 175, 86),rgb(238, 240, 150));">
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXycuCy6xIEnQhR4Ld5oD3XfRGqmsaiYoraPqb_266OTd27d5e7Vi3ObNzSr-do75FJkc&usqp=CAU"
+                              class="card-img-top" alt="..." style="height: 300px; width: 100%; object-fit: cover;">
+                         <div class="card-body">
+                              <h5 class="card-title">The Leader’s Determined Gaze</h5>
+                              <p class="card-text">Pawan Kalyan’s focused expression reflects his commitment and the
+                                   strong sense of purpose his journey</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                    </div>
+               </div>
+               <center>
+                    <h1>MOTIVATOR</h1>
+               </center>
+               <!-- 9 -->
+               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card border-dark border-5 "
+                         style="background: linear-gradient(rgb(219, 175, 86),rgb(238, 240, 150));">
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNOPvOm7cR9_kNEkn0yt08Hy0UkWUd0s34o69Rlmp75tirXsHyV2NgYWeZbfWLU0fpNtc&usqp=CAU"
+                              class="card-img-top" alt="..." style="height: 300px; width: 100%; object-fit: cover;">
+                         <div class="card-body">
+                              <h5 class="card-title">The Hero in Action Mode</h5>
+                              <p class="card-text">This energetic pose captures Pawan Kalyan’s action spirit and showing
+                                   the intensity that defines his movie roles.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                    </div>
+               </div>
+               <!-- 10 -->
+               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card border-dark border-5 "
+                         style="background: linear-gradient(rgb(219, 175, 86),rgb(238, 240, 150));">
+                         <img src="https://cdn.telugu360.com/wp-content/uploads/2025/03/pawan-kalyan-at-janasena-jayakethanam.jpg"
+                              class="card-img-top" alt="..." style="height: 300px; width: 100%; object-fit: cover;">
+                         <div class="card-body">
+                              <h5 class="card-title">A Powerful Warrior Stance</h5>
+                              <p class="card-text">Here, Pawan Kalyan’s commanding posture reflects courage and
+                                   determination, showcasing his heroic screen impact.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                    </div>
+               </div>
+               <!-- 11 -->
+               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card border-dark border-5 "
+                         style="background: linear-gradient(rgb(219, 175, 86),rgb(238, 240, 150));">
+                         <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSh-IhvXGWFylJVin7ylUBXB4IB0n2XvLBfROodAz610x708lJIY6pdkwVRVJscEa82Mv0&usqp=CAU"
+                              class="card-img-top" alt="..." style="height: 300px; width: 100%; object-fit: cover;">
+                         <div class="card-body">
+                              <h5 class="card-title">Power Star Reflection</h5>
+                              <p class="card-text">Pawan Kalyan’s thoughtful look in this portrait highlights his
+                                   composed nature and the quiet power he carries.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                    </div>
+               </div>
+               <!-- 12 -->
+               <div class="col-12 col-sm-6 col-md-4 col-lg-3 mb-4">
+                    <div class="card border-dark border-5 "
+                         style="background: linear-gradient(rgb(219, 175, 86),rgb(238, 240, 150));">
+                         <img src="https://lh3.googleusercontent.com/rOT14pY-WKfjGTfjlrlAWWRdbLiv1BwMpEaI7XVQxpQoLy7Z_Gnvr2v8dtQO7oBsIL1kwQCVzKE_lijinkIybMF29NA=s1200"
+                              class="card-img-top" alt="..." style="height: 300px; width: 100%; object-fit: cover;">
+                         <div class="card-body">
+                              <h5 class="card-title">A Striking Modern Portrait</h5>
+                              <p class="card-text">This stylish still captures Pawan Kalyan’s modern charisma,
+                                   presenting him with bold confidence and elegance.</p>
+                              <a href="#" class="btn btn-primary">Go somewhere</a>
+                         </div>
+                    </div>
+               </div>
+          </div>
+     </div>
+     <!-- ............................................................ -->
+
+     <div class="container mt-4 ">
+          <table class="table table-bordered border-dark text-center table-striped table-hover" id="table1">
+               <tr>
+                    <th>S.NO</th>
+                    <th>MOVIE NAME</th>
+                    <th>YEAR</th>
+               </tr>
+               <tr>
+                    <td>1</td>
+                    <td>Akkada Ammayi Ikkada Abbayi</td>
+                    <td>1996</td>
+               </tr>
+               <tr>
+                    <td>2</td>
+                    <td>Gokulamlo Seetha</td>
+                    <td>1997</td>
+               </tr>
+               <tr>
+                    <td>3</td>
+                    <td>Suswagatham</td>
+                    <td>1998</td>
+               </tr>
+               <tr>
+                    <td>4</td>
+                    <td>Tholi Prema</td>
+                    <td>1998</td>
+               </tr>
+               <tr>
+                    <td>5</td>
+                    <td>Gabbar Singh</td>
+                    <td>2012</td>
+               </tr>
+               <tr>
+                    <td>6</td>
+                    <td>Gopala Gopala</td>
+                    <td>2015</td>
+               </tr>
+               <tr>
+                    <td>7</td>
+                    <td>OG</td>
+                    <td>2025</td>
+               </tr>
+          </table>
+     </div>
+     <br><br>
+     <div class="container">
+          <div class="row">
+               <div class="col-sm-12 col-md-6 co-lg-4 co-xl-3 "
+                    style="background: linear-gradient(lightgreen,lightblue);">
+                    <h1>PAWAN KALYAN</h1>
+                    <p>Pawan Kalyan’s film career is marked by a unique blend of style, intensity, and emotional depth,
+                         making him one of Tollywood’s most celebrated stars.
+                         From youthful hits like Tholi Prema and Kushi to powerful mass entertainers like Gabbar Singh
+                         and Attarintiki Daredi, his films connect with audiences through charisma and strong
+                         storytelling.
+                         His recent projects like BRO, OG, and Ustaad Bhagat Singh show his continued impact and his
+                         ability to reinvent himself for new generations of fans.</p>
+                    <button class="btn bg-primary">ADD</button>
+               </div>
+
+               <div class="col-sm-12 col-md-6 co-lg-4 co-xl-3 "
+                    style="background: linear-gradient(rgb(103, 128, 103),rgb(68, 118, 135));">
+                    <h1>DETAILS</h1>
+                    <p>Pawan Kalyan was born on 2 September 1971 in Bapatla, Andhra Pradesh, India.
+                         He was born as Konidela Kalyan Babu into the Konidela family, the youngest brother of actors
+                         Chiranjeevi and Nagendra Babu. Growing up, he developed a deep interest in martial arts,
+                         eventually earning a black belt in Karate — a skill that shaped his early personality and later
+                         influenced his action-oriented film roles. His passion for cinema, discipline, and performing
+                         arts gradually led him into the Telugu film industry, where he made his debut in 1996.</p>
+                    <button class="btn bg-primary">ADD</button>
+               </div>
+
+
+          </div>
+     </div>
+
+     <div class="container">
+          <footer class="py-3 my-4">
+               <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Home</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Features</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">Pricing</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">FAQs</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link px-2 text-body-secondary">About</a></li>
+               </ul>
+               <p class="text-center text-body-secondary">© 2025 Pawan kalyan, Ind</p>
+          </footer>
+     </div>
+
+
+     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+          crossorigin="anonymous"></script>
+</body>
+
+</html>
